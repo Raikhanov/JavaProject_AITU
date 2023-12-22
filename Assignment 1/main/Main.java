@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 public class Main {
     public static void main(String[] args) {
         try{
-            File file = new File("C://Users/Lenovo/Desktop/Java_learn/src/tasks/source.txt");
+            File file = new File("D://AITU/Java/Project1/src/source");
             Scanner sc = new Scanner(file);
             Shape shape = new Shape();
             while(sc.hasNext()){
