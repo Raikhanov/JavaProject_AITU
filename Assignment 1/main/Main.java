@@ -7,8 +7,6 @@ import java.io.FileNotFoundException;
 
 public class Main {
     public static void main(String[] args) {
-    
-        if (file == File ){
             File file = new File("D://AITU/Java/Project1/src/source");
             Scanner sc = new Scanner(file);
             Shape shape = new Shape();
@@ -22,10 +20,6 @@ public class Main {
             System.out.println(shape.getLongestSide());
             System.out.println(shape.getAverageSide());
             sc.close();
-            else{
-            System.out.println("File netu");
-            }
-
 
         
     }
